@@ -1,0 +1,70 @@
+name: Lake Michigan Marketing
+slug: lmm
+description: AI-powered lead generation agency for local service businesses — Google Ads, landing pages, and follow-up systems.
+mission: Generate consistent, high-quality leads for local service businesses through Google Ads, optimized funnels, and automated follow-up — while scaling LMM through systematic client acquisition.
+
+budget:
+  monthly_usd: 3000
+  per_agent_usd: 600
+  enforcement: warning
+
+governance:
+  board_approval_required:
+    - new_agent_hire
+    - budget_increase_pct: 20
+    - new_workflow_production
+    - discount_above_pct: 20
+  immutable_log: true
+  escalation_chain:
+    - strategist
+    - owner
+
+issue_prefix: "LMM-"
+
+goals:
+  initiatives:
+    - id: INI-001
+      title: Build to 10 Active Clients
+      projects:
+        - id: PRJ-001
+          title: Client Acquisition Engine
+          milestones:
+            - id: MIL-001
+              title: 50 qualified prospects identified
+              evidence_gate: icp_score
+            - id: MIL-002
+              title: 20 outreach messages sent per week
+              evidence_gate: human_approval
+            - id: MIL-003
+              title: 5 discovery calls booked
+              evidence_gate: review_approved
+            - id: MIL-004
+              title: 3 new clients signed
+              evidence_gate: human_approval
+    - id: INI-002
+      title: Deliver Results for Every Client
+      projects:
+        - id: PRJ-002
+          title: Client Delivery Engine
+          milestones:
+            - id: MIL-005
+              title: Every client has active Google Ads campaign
+              evidence_gate: review_approved
+            - id: MIL-006
+              title: Every client has a dedicated landing page
+              evidence_gate: human_approval
+            - id: MIL-007
+              title: Every client has an automated follow-up sequence
+              evidence_gate: review_approved
+            - id: MIL-008
+              title: Average cost-per-lead under $75 for roofing/HVAC
+              evidence_gate: signal_score
+    - id: INI-003
+      title: Build Repeatable Systems
+      projects:
+        - id: PRJ-003
+          title: Playbook Development
+          milestones:
+            - id: MIL-009
+              title: Complete playbooks for roofing, HVAC, landscaping, gym verticals
+              evidence_gate: review_approved
