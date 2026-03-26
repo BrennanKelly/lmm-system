@@ -1,0 +1,86 @@
+name: Lake Michigan Marketing
+slug: lmm
+founded_by: Western Michigan University graduate
+location: Kalamazoo, Michigan
+description: Next-level AI marketing systems for local service businesses. Google Ads, landing pages, GoHighLevel automation, and AI-powered follow-up.
+mission: Help local service businesses in Michigan and beyond generate consistent, high-quality leads using AI-powered marketing systems — while building LMM into the go-to agency for the modern local business owner.
+
+positioning: "We’re building next-level AI marketing systems right here in Kalamazoo. Most local businesses haven’t caught on yet — the ones that do now are going to win."
+
+core_platform: GoHighLevel
+
+services:
+  - Google Ads (high-intent lead generation)
+  - Landing pages and conversion funnels
+  - GoHighLevel CRM setup and configuration
+  - SMS + email automation workflows
+  - Lead tracking and performance reporting
+
+budget:
+  monthly_usd: 3000
+  per_agent_usd: 600
+  enforcement: warning
+
+governance:
+  board_approval_required:
+    - new_agent_hire
+    - budget_increase_pct: 20
+    - new_workflow_production
+    - discount_above_pct: 20
+  immutable_log: true
+  escalation_chain:
+    - strategist
+    - owner
+
+issue_prefix: "LMM-"
+
+goals:
+  initiatives:
+    - id: INI-001
+      title: Sign First 5 Clients
+      projects:
+        - id: PRJ-001
+          title: Client Acquisition Engine
+          milestones:
+            - id: MIL-001
+              title: 50 qualified local businesses identified and scored
+              evidence_gate: icp_score
+            - id: MIL-002
+              title: 20 personalized outreach messages sent per week
+              evidence_gate: human_approval
+            - id: MIL-003
+              title: 5 discovery calls booked
+              evidence_gate: review_approved
+            - id: MIL-004
+              title: First 3 clients signed
+              evidence_gate: human_approval
+    - id: INI-002
+      title: Deliver Results for Every Client
+      projects:
+        - id: PRJ-002
+          title: Client Delivery Engine
+          milestones:
+            - id: MIL-005
+              title: Every client has active Google Ads campaign
+              evidence_gate: review_approved
+            - id: MIL-006
+              title: Every client has GHL sub-account configured
+              evidence_gate: human_approval
+            - id: MIL-007
+              title: Every client has active follow-up automation in GHL
+              evidence_gate: review_approved
+            - id: MIL-008
+              title: Average CPL under $100 across roofing/HVAC clients
+              evidence_gate: signal_score
+    - id: INI-003
+      title: Build the LMM Brand in West Michigan
+      projects:
+        - id: PRJ-003
+          title: Local Presence
+          milestones:
+            - id: MIL-009
+              title: LMM landing page live
+              evidence_gate: human_approval
+            - id: MIL-010
+              title: 3 client case studies published
+              evidence_gate: review_approved
