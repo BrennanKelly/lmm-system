@@ -1,7 +1,20 @@
 name: Lake Michigan Marketing
 slug: lmm
-description: AI-powered lead generation agency for local service businesses — Google Ads, landing pages, and follow-up systems.
-mission: Generate consistent, high-quality leads for local service businesses through Google Ads, optimized funnels, and automated follow-up — while scaling LMM through systematic client acquisition.
+founded_by: Western Michigan University graduate
+location: Kalamazoo, Michigan
+description: Next-level AI marketing systems for local service businesses. Google Ads, landing pages, GoHighLevel automation, and AI-powered follow-up.
+mission: Help local service businesses in Michigan and beyond generate consistent, high-quality leads using AI-powered marketing systems — while building LMM into the go-to agency for the modern local business owner.
+
+positioning: "We’re building next-level AI marketing systems right here in Kalamazoo. Most local businesses haven’t caught on yet — the ones that do now are going to win."
+
+core_platform: GoHighLevel
+
+services:
+  - Google Ads (high-intent lead generation)
+  - Landing pages and conversion funnels
+  - GoHighLevel CRM setup and configuration
+  - SMS + email automation workflows
+  - Lead tracking and performance reporting
 
 budget:
   monthly_usd: 3000
@@ -24,22 +37,22 @@ issue_prefix: "LMM-"
 goals:
   initiatives:
     - id: INI-001
-      title: Build to 10 Active Clients
+      title: Sign First 5 Clients
       projects:
         - id: PRJ-001
           title: Client Acquisition Engine
           milestones:
             - id: MIL-001
-              title: 50 qualified prospects identified
+              title: 50 qualified local businesses identified and scored
               evidence_gate: icp_score
             - id: MIL-002
-              title: 20 outreach messages sent per week
+              title: 20 personalized outreach messages sent per week
               evidence_gate: human_approval
             - id: MIL-003
               title: 5 discovery calls booked
               evidence_gate: review_approved
             - id: MIL-004
-              title: 3 new clients signed
+              title: First 3 clients signed
               evidence_gate: human_approval
     - id: INI-002
       title: Deliver Results for Every Client
@@ -51,20 +64,23 @@ goals:
               title: Every client has active Google Ads campaign
               evidence_gate: review_approved
             - id: MIL-006
-              title: Every client has a dedicated landing page
+              title: Every client has GHL sub-account configured
               evidence_gate: human_approval
             - id: MIL-007
-              title: Every client has an automated follow-up sequence
+              title: Every client has active follow-up automation in GHL
               evidence_gate: review_approved
             - id: MIL-008
-              title: Average cost-per-lead under $75 for roofing/HVAC
+              title: Average CPL under $100 across roofing/HVAC clients
               evidence_gate: signal_score
     - id: INI-003
-      title: Build Repeatable Systems
+      title: Build the LMM Brand in West Michigan
       projects:
         - id: PRJ-003
-          title: Playbook Development
+          title: Local Presence
           milestones:
             - id: MIL-009
-              title: Complete playbooks for roofing, HVAC, landscaping, gym verticals
+              title: LMM landing page live
+              evidence_gate: human_approval
+            - id: MIL-010
+              title: 3 client case studies published
               evidence_gate: review_approved
